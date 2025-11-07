@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Michelle's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #fff8f0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .bakery-card {
+      border-radius: 1.25rem;
+      box-shadow: 0 2px 10px #ffebb9a0;
+      border: none;
+      background: #fff3e6;
+      transition: transform 0.15s;
+    }
+    .bakery-card:hover {
+      transform: translateY(-5px) scale(1.03);
+      box-shadow: 0 6px 18px #ffadad66;
+    }
+    .navbar {
+      background: linear-gradient(90deg, #ffd6b0 60%, #ffe5ec 100%);
+    }
+    .nav-link {
+      color: #c25e32 !important;
+      font-weight: 600;
+    }
+    .nav-link.active {
+      color: #fff !important;
+      background: #c25e32;
+      border-radius: 25px;
+      padding: .5rem 1rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md mb-4 shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">🍰 Michelle's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBakery" aria-controls="navbarBakery" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarBakery">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="logo.html">Logo</a></li>
+          <li class="nav-item"><a class="nav-link" href="glitch.html">Glitch</a></li>
+          <li class="nav-item"><a class="nav-link" href="meme.html">Meme</a></li>
+          <li class="nav-item"><a class="nav-link" href="virtualspace.html">Virtual Space</a></li>
+          <li class="nav-item"><a class="nav-link" href="netart.html">Net Art</a></li>
+          <li class="nav-item"><a class="nav-link" href="bakeryspecial.html">Bakery Special</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1 class="text-center mb-4 fw-bold" style="color:#c25e32;">Welcome to My Bakery Portfolio</h1>
+    <div class="row g-4 justify-content-center">
+      <!-- 1: Logo -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="logo.html" class="text-decoration-none">
+          <div class="card bakery-card text-center h-100">
+            <img src="assets/placeholder-logo.png" class="card-img-top p-4" alt="Logo Placeholder">
+            <div class="card-body">
+              <h5 class="card-title">Logo</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- 2: Glitch -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="glitch.html" class="text-decoration-none">
+          <div class="card bakery-card text-center h-100">
+            <img src="assets/placeholder-glitch.png" class="card-img-top p-4" alt="Glitch Placeholder">
+            <div class="card-body">
+              <h5 class="card-title">Glitch</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- 3: Meme -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="meme.html" class="text-decoration-none">
+          <div class="card bakery-card text-center h-100">
+            <img src="assets/placeholder-meme.png" class="card-img-top p-4" alt="Meme Placeholder">
+            <div class="card-body">
+              <h5 class="card-title">Meme</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- 4: Virtual Space -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="virtualspace.html" class="text-decoration-none">
+          <div class="card bakery-card text-center h-100">
+            <img src="assets/placeholder-virtualspace.png" class="card-img-top p-4" alt="Virtual Space Placeholder">
+            <div class="card-body">
+              <h5 class="card-title">Virtual Space</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- 5: Net Art -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="netart.html" class="text-decoration-none">
+          <div class="card bakery-card text-center h-100">
+            <img src="assets/placeholder-netart.png" class="card-img-top p-4" alt="Net Art Placeholder">
+            <div class="card-body">
+              <h5 class="card-title">Net Art</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- 6: Bakery Special -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="bakeryspecial.html" class="text-decoration-none">
+          <div class="card bakery-card text-center h-100">
+            <img src="assets/placeholder-special.png" class="card-img-top p-4" alt="Bakery Special Placeholder">
+            <div class="card-body">
+              <h5 class="card-title">Bakery Special</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </main>
+  <footer class="text-center text-muted mt-5 pb-3">Bakery Portfolio &copy; 2025</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
